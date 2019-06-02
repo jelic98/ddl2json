@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Dddl2Json {
+public class Main {
 
     private static final String DDL_FILE = "ddl.sql";
     private static final String SCHEMA_FILE = "schema.json";
@@ -19,7 +19,7 @@ public class Dddl2Json {
     private static final String password = "<<password>>";
 
     public static void main(String[] args) {
-        new Dddl2Json().convert();
+        new Main().convert();
     }
 
     private void convert() {
