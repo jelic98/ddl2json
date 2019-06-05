@@ -6700,4 +6700,3 @@ alter table VOZILO
       references PRIVREDNISUBJEKAT (KON_ID, PSUB_ID, PSUB_NAZIV)
       on update restrict
       on delete restrict;
-

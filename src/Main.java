@@ -63,7 +63,6 @@ public class Main {
                 String[] tokens = line.split(" ");
 
                 if(tokens[0].equals("create") && tokens[1].equals("table")) {
-                    System.out.println(line);
                     attributes = new JSONArray();
 
                     JSONObject entity = new JSONObject();
@@ -84,14 +83,21 @@ public class Main {
                         }
                     }
                 }else if(tokens[0].equals("constraint")) {
-                    System.out.println(line);
                     Matcher matcher = Pattern.compile("\\(([^)]+)\\)").matcher(line);
 
                     if(matcher.find()) {
                         Collections.addAll(primaries, matcher.group(1).split(" "));
                     }
+
+                    for(int i = 0; i < attributes.length(); i++) {
+                        JSONObject a = (JSONObject) attributes.get(i);
+
+                        if(primaries.contains(a.get("name"))) {
+                            a.put("primary", "true");
+                            a.put("required", "true");
+                        }
+                    }
                 }else if(tokens[0].equals("add")) {
-                    System.out.println(line);
                     JSONObject relation = new JSONObject();
 
                     JSONArray arr = resource.getJSONArray("entities");
@@ -127,11 +133,6 @@ public class Main {
                     attribute.put("id", attributeId++);
                     attribute.put("name", tokens[0]);
                     attributes.put(attribute);
-
-                    if(primaries.contains(tokens[0])) {
-                        attribute.put("primary", "true");
-                        attribute.put("required", "true");
-                    }
 
                     if(tokens[1].contains("char")) {
                         Matcher m = Pattern.compile("\\(([^)]+)\\)").matcher(tokens[1]);

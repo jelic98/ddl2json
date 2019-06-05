@@ -7,7 +7,9 @@
           "name": "ULI_ID",
           "length": 1024,
           "id": 0,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DR_IDENTIFIKATOR",
@@ -16,19 +18,25 @@
           },
           "length": 1024,
           "id": 1,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "NM_DENTIFIKATOR",
           "length": 1024,
           "id": 2,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ADR_ID",
           "length": 1024,
           "id": 3,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ADR_BROJULAZA",
@@ -78,25 +86,33 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 7,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_ID",
           "length": 1024,
           "id": 8,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_NAZIV",
           "length": "50",
           "id": 9,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ULI_ID",
           "length": 1024,
           "id": 10,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DR_IDENTIFIKATOR",
@@ -105,19 +121,25 @@
           },
           "length": 1024,
           "id": 11,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "NM_DENTIFIKATOR",
           "length": 1024,
           "id": 12,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ADR_ID",
           "length": 1024,
           "id": 13,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FK_ADRESEOG_ADRESEOGR_PRIVREDN",
@@ -149,13 +171,17 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 14,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_ID",
           "length": 1024,
           "id": 15,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_MATICNIBROJ",
@@ -164,25 +190,33 @@
           },
           "length": 1024,
           "id": 16,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KAN_ID",
           "length": 1024,
           "id": 17,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "RAD_ID",
           "length": 1024,
           "id": 18,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SME_ID",
           "length": 1024,
           "id": 19,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SME_OZNAKA",
@@ -191,43 +225,57 @@
           },
           "length": 1024,
           "id": 20,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DIRAD_ID",
           "length": 1024,
           "id": 21,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DIRAD_TRENUTAKGENERISANJA",
           "length": 1024,
           "id": 22,
-          "type": "datetime"
+          "type": "datetime",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_KON_ID",
           "length": 1024,
           "id": 23,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSUB_ID",
           "length": 1024,
           "id": 24,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSUB_NAZIV",
           "length": "50",
           "id": 25,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_PRI_KON_ID",
           "length": 1024,
           "id": 26,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_DR_IDENTIFIKATOR",
@@ -236,31 +284,41 @@
           },
           "length": 1024,
           "id": 27,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_PRI_PSUB_ID",
           "length": 1024,
           "id": 28,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_PRI_PSUB_NAZIV",
           "length": "50",
           "id": 29,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSIS_ID",
           "length": 1024,
           "id": 30,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_ID",
           "length": 1024,
           "id": 31,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_BROJFAKTURE",
@@ -269,13 +327,17 @@
           },
           "length": 1024,
           "id": 32,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OPR_ID",
           "length": 1024,
           "id": 33,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OPR_OZNAKA",
@@ -284,7 +346,9 @@
           },
           "length": 1024,
           "id": 34,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FK_DIRAD_ZA_DIRAD_ZAU_DNEVNIIZ",
@@ -316,13 +380,17 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 35,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_ID",
           "length": 1024,
           "id": 36,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_MATICNIBROJ",
@@ -331,25 +399,33 @@
           },
           "length": 1024,
           "id": 37,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KAN_ID",
           "length": 1024,
           "id": 38,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "RAD_ID",
           "length": 1024,
           "id": 39,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SME_ID",
           "length": 1024,
           "id": 40,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SME_OZNAKA",
@@ -358,19 +434,25 @@
           },
           "length": 1024,
           "id": 41,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DIRAD_ID",
           "length": 1024,
           "id": 42,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DIRAD_TRENUTAKGENERISANJA",
           "length": 1024,
           "id": 43,
-          "type": "datetime"
+          "type": "datetime",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DIRAD_KOLICINARADA",
@@ -454,7 +536,9 @@
           },
           "length": 1024,
           "id": 50,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DRZ_DR_IDENTIFIKATOR",
@@ -556,7 +640,9 @@
           },
           "length": 1024,
           "id": 59,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DU_NAZIV",
@@ -574,25 +660,33 @@
           "name": "POS_KON_ID",
           "length": 1024,
           "id": 61,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSUB_ID",
           "length": 1024,
           "id": 62,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSUB_NAZIV",
           "length": "50",
           "id": 63,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_KON_ID",
           "length": 1024,
           "id": 64,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_DR_IDENTIFIKATOR",
@@ -601,31 +695,41 @@
           },
           "length": 1024,
           "id": 65,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_ID",
           "length": 1024,
           "id": 66,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_NAZIV",
           "length": "50",
           "id": 67,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSIS_ID",
           "length": 1024,
           "id": 68,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_ID",
           "length": 1024,
           "id": 69,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_BROJFAKTURE",
@@ -634,7 +738,9 @@
           },
           "length": 1024,
           "id": 70,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DR_IDENTIFIKATOR",
@@ -760,7 +866,9 @@
           },
           "length": 1024,
           "id": 84,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DU_OZNAKA",
@@ -769,13 +877,17 @@
           },
           "length": 1024,
           "id": 85,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "IST_REDNI_BROJ",
           "length": 1024,
           "id": 86,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "IST_OD",
@@ -819,31 +931,41 @@
           "name": "PRI_KON_ID",
           "length": 1024,
           "id": 89,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_ID",
           "length": 1024,
           "id": 90,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_NAZIV",
           "length": "50",
           "id": 91,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KON_ID",
           "length": 1024,
           "id": 92,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_ID",
           "length": 1024,
           "id": 93,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_MATICNIBROJ",
@@ -852,7 +974,9 @@
           },
           "length": 1024,
           "id": 94,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FK_IZVRSNIO_IZVRSNIOD_PRIVREDN",
@@ -884,7 +1008,9 @@
           "name": "JMER_ID",
           "length": 1024,
           "id": 95,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "JMER_NAZIV",
@@ -899,7 +1025,9 @@
           },
           "length": 1024,
           "id": 97,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         }
       ],
       "id": 9
@@ -911,7 +1039,9 @@
           "name": "JRAD_ID",
           "length": 1024,
           "id": 98,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "JRAD_NAZIV",
@@ -926,7 +1056,9 @@
           },
           "length": 1024,
           "id": 100,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         }
       ],
       "id": 10
@@ -938,13 +1070,17 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 101,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_ID",
           "length": 1024,
           "id": 102,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_MATICNIBROJ",
@@ -953,13 +1089,17 @@
           },
           "length": 1024,
           "id": 103,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KAN_ID",
           "length": 1024,
           "id": 104,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SSPR_ID",
@@ -1058,7 +1198,9 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 114,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KON_TELEFON",
@@ -1082,7 +1224,9 @@
           "name": "MPRO_ID",
           "length": 1024,
           "id": 117,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "JMER_ID",
@@ -1125,7 +1269,9 @@
           "name": "SIR_ID",
           "length": 1024,
           "id": 121,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SIR_SIFRA",
@@ -1134,13 +1280,17 @@
           },
           "length": 1024,
           "id": 122,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "MSIR_ID",
           "length": 1024,
           "id": 123,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "JMER_ID",
@@ -1196,19 +1346,25 @@
           },
           "length": 1024,
           "id": 127,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OP_OZNAKA",
           "length": 1024,
           "id": 128,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "MZ_OZNAKA",
           "length": 1024,
           "id": 129,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "NAS_DR_IDENTIFIKATOR",
@@ -1261,31 +1417,41 @@
           "name": "PRI_KON_ID",
           "length": 1024,
           "id": 133,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_ID",
           "length": 1024,
           "id": 134,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_NAZIV",
           "length": "50",
           "id": 135,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KON_ID",
           "length": 1024,
           "id": 136,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_ID",
           "length": 1024,
           "id": 137,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_MATICNIBROJ",
@@ -1294,7 +1460,9 @@
           },
           "length": 1024,
           "id": 138,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FK_NADZORNI_NADZORNIO_PRIVREDN",
@@ -1329,13 +1497,17 @@
           },
           "length": 1024,
           "id": 139,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "NM_DENTIFIKATOR",
           "length": 1024,
           "id": 140,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OPS_DR_IDENTIFIKATOR",
@@ -1388,7 +1560,9 @@
           "name": "ULI_ID",
           "length": 1024,
           "id": 144,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DR_IDENTIFIKATOR",
@@ -1397,13 +1571,17 @@
           },
           "length": 1024,
           "id": 145,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "NM_DENTIFIKATOR",
           "length": 1024,
           "id": 146,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FK_NMES_ULI_NMES_ULIC_ULICA",
@@ -1435,13 +1613,17 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 147,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_ID",
           "length": 1024,
           "id": 148,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_MATICNIBROJ",
@@ -1450,31 +1632,41 @@
           },
           "length": 1024,
           "id": 149,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KAN_ID",
           "length": 1024,
           "id": 150,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "RAD_ID",
           "length": 1024,
           "id": 151,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OODM_ID",
           "length": 1024,
           "id": 152,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OODM_VAZECAGODINA",
           "length": 1024,
           "id": 153,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OODM_UKUPANBROJDANAODMORA",
@@ -1508,13 +1700,17 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 156,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_ID",
           "length": 1024,
           "id": 157,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_MATICNIBROJ",
@@ -1523,31 +1719,41 @@
           },
           "length": 1024,
           "id": 158,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KAN_ID",
           "length": 1024,
           "id": 159,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "RAD_ID",
           "length": 1024,
           "id": 160,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OZAR_ID",
           "length": 1024,
           "id": 161,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OZAR_DATUMOBRACUNA",
           "length": 1024,
           "id": 162,
-          "type": "date"
+          "type": "date",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OZAR_BRUTOZARADA",
@@ -1599,25 +1805,33 @@
           "name": "POS_KON_ID",
           "length": 1024,
           "id": 168,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSUB_ID",
           "length": 1024,
           "id": 169,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSUB_NAZIV",
           "length": "50",
           "id": 170,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_PRI_KON_ID",
           "length": 1024,
           "id": 171,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_DR_IDENTIFIKATOR",
@@ -1626,31 +1840,41 @@
           },
           "length": 1024,
           "id": 172,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_PRI_PSUB_ID",
           "length": 1024,
           "id": 173,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_PRI_PSUB_NAZIV",
           "length": "50",
           "id": 174,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSIS_ID",
           "length": 1024,
           "id": 175,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_ID",
           "length": 1024,
           "id": 176,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_BROJFAKTURE",
@@ -1659,13 +1883,17 @@
           },
           "length": 1024,
           "id": 177,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OPR_ID",
           "length": 1024,
           "id": 178,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OPR_OZNAKA",
@@ -1674,7 +1902,9 @@
           },
           "length": 1024,
           "id": 179,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SER_ID",
@@ -1786,13 +2016,17 @@
           },
           "length": 1024,
           "id": 189,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OP_OZNAKA",
           "length": 1024,
           "id": 190,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "NAS_DR_IDENTIFIKATOR",
@@ -1848,13 +2082,17 @@
           },
           "length": 1024,
           "id": 194,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OP_OZNAKA",
           "length": 1024,
           "id": 195,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "NAS_DR_IDENTIFIKATOR",
@@ -1863,13 +2101,17 @@
           },
           "length": 1024,
           "id": 196,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "NM_DENTIFIKATOR",
           "length": 1024,
           "id": 197,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FK_OPSTINA__OPSTINA_N_OPSTINA",
@@ -1901,25 +2143,33 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 198,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_ID",
           "length": 1024,
           "id": 199,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_NAZIV",
           "length": "50",
           "id": 200,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_KON_ID",
           "length": 1024,
           "id": 201,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DR_IDENTIFIKATOR",
@@ -1928,25 +2178,33 @@
           },
           "length": 1024,
           "id": 202,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_ID",
           "length": 1024,
           "id": 203,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_NAZIV",
           "length": "50",
           "id": 204,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSIS_ID",
           "length": 1024,
           "id": 205,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "VO_OZNAKA",
@@ -1955,25 +2213,33 @@
           },
           "length": 1024,
           "id": 206,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "VO_ID",
           "length": 1024,
           "id": 207,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OJ_IDENTIFIKATOR",
           "length": 1024,
           "id": 208,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OJ_ID",
           "length": 1024,
           "id": 209,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OJ_NAZIV",
@@ -2011,13 +2277,17 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 211,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_ID",
           "length": 1024,
           "id": 212,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_MATICNIBROJ",
@@ -2026,7 +2296,9 @@
           },
           "length": 1024,
           "id": 213,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KAN_KON_ID",
@@ -2156,7 +2428,9 @@
           "name": "OPRO_ID",
           "length": 1024,
           "id": 226,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "JMER_ID",
@@ -2230,7 +2504,9 @@
           "name": "OSIR_ID",
           "length": 1024,
           "id": 233,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SIR_ID",
@@ -2332,13 +2608,17 @@
           "name": "POL_ID",
           "length": 1024,
           "id": 243,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POL_NAZIV",
           "length": "20",
           "id": 244,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         }
       ],
       "id": 28
@@ -2350,25 +2630,33 @@
           "name": "POS_KON_ID",
           "length": 1024,
           "id": 245,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSUB_ID",
           "length": 1024,
           "id": 246,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSUB_NAZIV",
           "length": "50",
           "id": 247,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_KON_ID",
           "length": 1024,
           "id": 248,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_DR_IDENTIFIKATOR",
@@ -2377,31 +2665,41 @@
           },
           "length": 1024,
           "id": 249,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_ID",
           "length": 1024,
           "id": 250,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_NAZIV",
           "length": "50",
           "id": 251,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSIS_ID",
           "length": 1024,
           "id": 252,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_ID",
           "length": 1024,
           "id": 253,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FAK_BROJFAKTURE",
@@ -2410,19 +2708,25 @@
           },
           "length": 1024,
           "id": 254,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KON_ID",
           "length": 1024,
           "id": 255,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_ID",
           "length": 1024,
           "id": 256,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_MATICNIBROJ",
@@ -2431,37 +2735,49 @@
           },
           "length": 1024,
           "id": 257,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KAN_ID",
           "length": 1024,
           "id": 258,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "RAD_ID",
           "length": 1024,
           "id": 259,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OZAR_ID",
           "length": 1024,
           "id": 260,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OZAR_DATUMOBRACUNA",
           "length": 1024,
           "id": 261,
-          "type": "date"
+          "type": "date",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POR_ID",
           "length": 1024,
           "id": 262,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POR_IZNOSOSNOVICE",
@@ -2523,25 +2839,33 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 268,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_ID",
           "length": 1024,
           "id": 269,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_NAZIV",
           "length": "50",
           "id": 270,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_KON_ID",
           "length": 1024,
           "id": 271,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DR_IDENTIFIKATOR",
@@ -2550,25 +2874,33 @@
           },
           "length": 1024,
           "id": 272,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_ID",
           "length": 1024,
           "id": 273,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_NAZIV",
           "length": "50",
           "id": 274,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSIS_ID",
           "length": 1024,
           "id": 275,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "REG_DR_IDENTIFIKATOR",
@@ -2641,19 +2973,25 @@
           "name": "POS_KON_ID",
           "length": 1024,
           "id": 279,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSUB_ID",
           "length": 1024,
           "id": 280,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSUB_NAZIV",
           "length": "50",
           "id": 281,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_KON_ID",
@@ -2686,13 +3024,17 @@
           "name": "PSIS_ID",
           "length": 1024,
           "id": 286,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PPAR_ID",
           "length": 1024,
           "id": 287,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "TPAR_ID",
@@ -2782,7 +3124,9 @@
           "name": "POZ_ID",
           "length": 1024,
           "id": 296,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POZ_NAZIV",
@@ -2797,7 +3141,9 @@
           },
           "length": 1024,
           "id": 298,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         }
       ],
       "id": 32
@@ -2809,7 +3155,9 @@
           "name": "PRO_ID",
           "length": 1024,
           "id": 299,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRO_SIFRA",
@@ -2818,13 +3166,17 @@
           },
           "length": 1024,
           "id": 300,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "USL_ID",
           "length": 1024,
           "id": 301,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "USL_SIFRA",
@@ -2833,13 +3185,17 @@
           },
           "length": 1024,
           "id": 302,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PPRO_ID",
           "length": 1024,
           "id": 303,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_KON_ID",
@@ -3006,7 +3362,9 @@
           "name": "PRE_ID",
           "length": 1024,
           "id": 320,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "JMER_ID",
@@ -3267,19 +3625,25 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 349,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_ID",
           "length": 1024,
           "id": 350,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_NAZIV",
           "length": "50",
           "id": 351,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "TLIC_ID",
@@ -3501,7 +3865,9 @@
           "name": "PRO_ID",
           "length": 1024,
           "id": 375,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRO_SIFRA",
@@ -3510,7 +3876,9 @@
           },
           "length": 1024,
           "id": 376,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRE_PRO_ID",
@@ -3602,43 +3970,57 @@
           },
           "length": 1024,
           "id": 385,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DEL_OZNAKA",
           "length": "8",
           "id": 386,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DEL_ID",
           "length": 1024,
           "id": 387,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KON_ID",
           "length": 1024,
           "id": 388,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_ID",
           "length": 1024,
           "id": 389,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_NAZIV",
           "length": "50",
           "id": 390,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_KON_ID",
           "length": 1024,
           "id": 391,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_DR_IDENTIFIKATOR",
@@ -3647,25 +4029,33 @@
           },
           "length": 1024,
           "id": 392,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_ID",
           "length": 1024,
           "id": 393,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_NAZIV",
           "length": "50",
           "id": 394,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSIS_ID",
           "length": 1024,
           "id": 395,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FK_PSUB_DRU_PSUB_DRUG_REGISTAR",
@@ -3697,13 +4087,17 @@
           "name": "RAD_KON_ID2",
           "length": 1024,
           "id": 396,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "RAD_OSO_ID2",
           "length": 1024,
           "id": 397,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "RAD_OSO_MATICNIBROJ2",
@@ -3712,37 +4106,49 @@
           },
           "length": 1024,
           "id": 398,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "RAD_KAN_ID2",
           "length": 1024,
           "id": 399,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "RAD_RAD_ID2",
           "length": 1024,
           "id": 400,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PNAL_ID",
           "length": 1024,
           "id": 401,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PNAL_ODLAZAK",
           "length": 1024,
           "id": 402,
-          "type": "datetime"
+          "type": "datetime",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PNAL_POVRATAK",
           "length": 1024,
           "id": 403,
-          "type": "datetime"
+          "type": "datetime",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KON_ID",
@@ -3943,13 +4349,17 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 423,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_ID",
           "length": 1024,
           "id": 424,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_MATICNIBROJ",
@@ -3958,19 +4368,25 @@
           },
           "length": 1024,
           "id": 425,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KAN_ID",
           "length": 1024,
           "id": 426,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "RAD_ID",
           "length": 1024,
           "id": 427,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "JRAD_ID",
@@ -4041,13 +4457,17 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 434,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_ID",
           "length": 1024,
           "id": 435,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_MATICNIBROJ",
@@ -4056,25 +4476,33 @@
           },
           "length": 1024,
           "id": 436,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KAN_ID",
           "length": 1024,
           "id": 437,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "RAD_ID",
           "length": 1024,
           "id": 438,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POZ_ID",
           "length": 1024,
           "id": 439,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POZ_OZNAKA",
@@ -4083,7 +4511,9 @@
           },
           "length": 1024,
           "id": 440,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FK_RAD_POZI_RAD_POZIC_RADNIK",
@@ -4115,7 +4545,9 @@
           "name": "REG_IDENTIFIKATOR",
           "length": 1024,
           "id": 441,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DR_IDENTIFIKATOR",
@@ -4199,19 +4631,25 @@
           },
           "length": 1024,
           "id": 447,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DEL_OZNAKA",
           "length": "8",
           "id": 448,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DEL_ID",
           "length": 1024,
           "id": 449,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DEL_NAZIV",
@@ -4242,7 +4680,9 @@
           },
           "length": 1024,
           "id": 451,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DRZ_DR_IDENTIFIKATOR",
@@ -4251,7 +4691,9 @@
           },
           "length": 1024,
           "id": 452,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SASTAV_DRZAVE",
@@ -4286,13 +4728,17 @@
           },
           "length": 1024,
           "id": 453,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "NM_DENTIFIKATOR",
           "length": 1024,
           "id": 454,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "NAS_DR_IDENTIFIKATOR",
@@ -4301,13 +4747,17 @@
           },
           "length": 1024,
           "id": 455,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "NAS_NM_DENTIFIKATOR",
           "length": 1024,
           "id": 456,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SASTAV_NASELJA",
@@ -4339,25 +4789,33 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 457,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_ID",
           "length": 1024,
           "id": 458,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_NAZIV",
           "length": "50",
           "id": 459,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_KON_ID",
           "length": 1024,
           "id": 460,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DR_IDENTIFIKATOR",
@@ -4366,25 +4824,33 @@
           },
           "length": 1024,
           "id": 461,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_ID",
           "length": 1024,
           "id": 462,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_NAZIV",
           "length": "50",
           "id": 463,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSIS_ID",
           "length": 1024,
           "id": 464,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "VO_OZNAKA",
@@ -4393,49 +4859,65 @@
           },
           "length": 1024,
           "id": 465,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "VO_ID",
           "length": 1024,
           "id": 466,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OJ_IDENTIFIKATOR",
           "length": 1024,
           "id": 467,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OJ_ID",
           "length": 1024,
           "id": 468,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ORG_KON_ID",
           "length": 1024,
           "id": 469,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ORG_PSUB_ID",
           "length": 1024,
           "id": 470,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ORG_PSUB_NAZIV",
           "length": "50",
           "id": 471,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ORG_PRI_KON_ID",
           "length": 1024,
           "id": 472,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ORG_DR_IDENTIFIKATOR",
@@ -4444,25 +4926,33 @@
           },
           "length": 1024,
           "id": 473,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ORG_PRI_PSUB_ID",
           "length": 1024,
           "id": 474,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ORG_PRI_PSUB_NAZIV",
           "length": "50",
           "id": 475,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ORG_PSIS_ID",
           "length": 1024,
           "id": 476,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ORG_VO_OZNAKA",
@@ -4471,25 +4961,33 @@
           },
           "length": 1024,
           "id": 477,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ORG_VO_ID",
           "length": 1024,
           "id": 478,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ORG_OJ_IDENTIFIKATOR",
           "length": 1024,
           "id": 479,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ORG_OJ_ID",
           "length": 1024,
           "id": 480,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SASTAV_ORGANIZACIONE_JEDINICE",
@@ -4521,25 +5019,33 @@
           "name": "KON_ID",
           "length": 1024,
           "id": 481,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_ID",
           "length": 1024,
           "id": 482,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_NAZIV",
           "length": "50",
           "id": 483,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_KON_ID",
           "length": 1024,
           "id": 484,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DR_IDENTIFIKATOR",
@@ -4548,49 +5054,65 @@
           },
           "length": 1024,
           "id": 485,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_ID",
           "length": 1024,
           "id": 486,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_PSUB_NAZIV",
           "length": "50",
           "id": 487,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSIS_ID",
           "length": 1024,
           "id": 488,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_KON_ID",
           "length": 1024,
           "id": 489,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSUB_ID",
           "length": 1024,
           "id": 490,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSUB_NAZIV",
           "length": "50",
           "id": 491,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PRI_KON_ID",
           "length": 1024,
           "id": 492,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_DR_IDENTIFIKATOR",
@@ -4599,25 +5121,33 @@
           },
           "length": 1024,
           "id": 493,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PRI_PSUB_ID",
           "length": 1024,
           "id": 494,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PRI_PSUB_NAZIV",
           "length": "50",
           "id": 495,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "POS_PSIS_ID",
           "length": 1024,
           "id": 496,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SASTAV_POSLOVNOG_SISTEMA",
@@ -4649,13 +5179,17 @@
           "name": "REG_IDENTIFIKATOR",
           "length": 1024,
           "id": 497,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "REG_REG_IDENTIFIKATOR",
           "length": 1024,
           "id": 498,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SASTAV_REGIONA",
@@ -4687,7 +5221,9 @@
           "name": "SER_ID",
           "length": 1024,
           "id": 499,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SER_SERIJSKIBROJ",
@@ -4696,7 +5232,9 @@
           },
           "length": 1024,
           "id": 500,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "JMER_ID",
@@ -4767,7 +5305,9 @@
           "name": "SIR_ID",
           "length": 1024,
           "id": 507,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SIR_NAZIV",
@@ -4782,7 +5322,9 @@
           },
           "length": 1024,
           "id": 509,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "MAG_SIR_ID",
@@ -4825,7 +5367,9 @@
           "name": "SME_ID",
           "length": 1024,
           "id": 513,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SME_NAZIV",
@@ -4852,7 +5396,9 @@
           },
           "length": 1024,
           "id": 517,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         }
       ],
       "id": 50
@@ -4864,7 +5410,9 @@
           "name": "STA_ID",
           "length": 1024,
           "id": 518,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "STA_NAZIV",
@@ -4879,7 +5427,9 @@
           },
           "length": 1024,
           "id": 520,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRO_ID",
@@ -4937,7 +5487,9 @@
           "name": "PRO_ID",
           "length": 1024,
           "id": 526,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRO_SIFRA",
@@ -4946,13 +5498,17 @@
           },
           "length": 1024,
           "id": 527,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "STA_ID",
           "length": 1024,
           "id": 528,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "STA_SKRACENINAZIV",
@@ -4961,13 +5517,17 @@
           },
           "length": 1024,
           "id": 529,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SPRO_ID",
           "length": 1024,
           "id": 530,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KON_ID",
@@ -5039,19 +5599,25 @@
           "name": "SSPR_ID",
           "length": 1024,
           "id": 536,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SSPR_STEPEN",
           "length": 1024,
           "id": 537,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "SSPR_NAZIV",
           "length": "50",
           "id": 538,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         }
       ],
       "id": 53
@@ -5063,7 +5629,9 @@
           "name": "TRAC_ID",
           "length": 1024,
           "id": 539,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "TRAC_BROJTEKUCEGRACUNA",
@@ -5072,7 +5640,9 @@
           },
           "length": 1024,
           "id": 540,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRI_KON_ID",
@@ -5140,13 +5710,17 @@
           "name": "TLIC_ID",
           "length": 1024,
           "id": 547,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "TLIC_NAZIV",
           "length": "20",
           "id": 548,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         }
       ],
       "id": 55
@@ -5158,13 +5732,17 @@
           "name": "TPAR_ID",
           "length": 1024,
           "id": 549,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "TPAR_NAZIV",
           "length": "50",
           "id": 550,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         }
       ],
       "id": 56
@@ -5176,13 +5754,17 @@
           "name": "TPPRO_ID",
           "length": 1024,
           "id": 551,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "TPPRO_NAZIV",
           "length": "50",
           "id": 552,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         }
       ],
       "id": 57
@@ -5194,13 +5776,17 @@
           "name": "TVOZ_ID",
           "length": 1024,
           "id": 553,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "TVOZ_NAZIV",
           "length": "20",
           "id": 554,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         }
       ],
       "id": 58
@@ -5215,7 +5801,9 @@
           },
           "length": 1024,
           "id": 555,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "TR_NAZIV",
@@ -5233,7 +5821,9 @@
           "name": "REG_IDENTIFIKATOR",
           "length": 1024,
           "id": 557,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DR_IDENTIFIKATOR",
@@ -5242,13 +5832,17 @@
           },
           "length": 1024,
           "id": 558,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "NM_DENTIFIKATOR",
           "length": 1024,
           "id": 559,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FK_UKLJUCUJ_UKLJUCUJE_REGION",
@@ -5280,7 +5874,9 @@
           "name": "REG_IDENTIFIKATOR",
           "length": 1024,
           "id": 560,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "DR_IDENTIFIKATOR",
@@ -5289,13 +5885,17 @@
           },
           "length": 1024,
           "id": 561,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OP_OZNAKA",
           "length": 1024,
           "id": 562,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FK_UKLJUCUJ_UKLJUCUJE_REGION",
@@ -5327,7 +5927,9 @@
           "name": "ULI_ID",
           "length": 1024,
           "id": 563,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "ULI_NAZIV",
@@ -5345,31 +5947,41 @@
           "name": "PRI_KON_ID",
           "length": 1024,
           "id": 565,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_ID",
           "length": 1024,
           "id": 566,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PSUB_NAZIV",
           "length": "50",
           "id": 567,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "KON_ID",
           "length": 1024,
           "id": 568,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_ID",
           "length": 1024,
           "id": 569,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "OSO_MATICNIBROJ",
@@ -5378,7 +5990,9 @@
           },
           "length": 1024,
           "id": 570,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "FK_UPRAVNI__UPRAVNI_O_PRIVREDN",
@@ -5410,7 +6024,9 @@
           "name": "USL_ID",
           "length": 1024,
           "id": 571,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "USL_SIFRA",
@@ -5419,7 +6035,9 @@
           },
           "length": 1024,
           "id": 572,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "PRO_ID",
@@ -5483,7 +6101,9 @@
           "name": "VOZ_ID",
           "length": 1024,
           "id": 579,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "VOZ_REGISTRACIONIBROJ",
@@ -5492,7 +6112,9 @@
           },
           "length": 1024,
           "id": 580,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "TLIC_ID",
@@ -5619,7 +6241,9 @@
           "name": "VO_ID",
           "length": 1024,
           "id": 593,
-          "type": "integer"
+          "type": "integer",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "VO_OZNAKA",
@@ -5628,7 +6252,9 @@
           },
           "length": 1024,
           "id": 594,
-          "type": "string"
+          "type": "string",
+          "required": "true",
+          "primary": "true"
         },
         {
           "name": "VO_NAZIV",
@@ -5640,12 +6266,12 @@
       "id": 66
     }
   ],
-  "name": "tim_201_7_ui2018",
+  "name": "<<database>>",
   "options": {
-    "database": "tim_201_7_ui2018",
-    "password": "Kg7ZX$U9j+sHx?%p",
-    "host": "147.91.175.155",
-    "username": "tim_201_7_ui2018"
+    "database": "<<database>>",
+    "password": "<<password>>",
+    "host": "<<host>>",
+    "username": "<<username>>"
   },
   "id": 0,
   "type": "relational_database"
